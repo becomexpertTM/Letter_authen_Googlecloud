@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-    max-height: 60px; /* Adjust height to match the text size */
+    max-height: 30px; /* Adjust height */
     margin-bottom: 10px; /* Add some space below the logo */
 }
 
