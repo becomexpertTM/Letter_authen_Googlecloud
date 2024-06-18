@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Recommendation Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script-secure.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Company Logo" class="logo">
+        <h1>Secure Recommendation Lookup</h1>
+    </header>
+    <button id="auth-button" onclick="handleAuthClick()">Authorize</button>
+    <form id="lookup-form" style="display: none;">
+        <label for="certificate-id">Enter Recommendation Letter ID:</label>
+        <input type="text" id="certificate-id" name="certificate-id" required>
+        <button type="submit">Lookup</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
