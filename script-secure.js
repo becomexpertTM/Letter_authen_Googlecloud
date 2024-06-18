@@ -1,4 +1,4 @@
-var CLIENT_ID = 'YOUR_CLIENT_ID'; // Your client ID
+var CLIENT_ID = '696322707649-3gnikiu5r2hbbjq9dgimrjrjub8b5a40.apps.googleusercontent.com'; // Your client ID
 var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
 var SCOPES = "https://www.googleapis.com/auth/spreadsheets.readonly";
 
